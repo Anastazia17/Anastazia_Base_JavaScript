@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Java_game</title>
+
+    <script type="text/javascript">
+        var answer = parseInt(Math.random() * 100);
+        var userAnswer = +prompt("Угадайте число от 0 до 100.");
+        var maxTryCount = 7;
+
+        for (var tryCount = 1; tryCount < maxTryCount; tryCount++) {
+            if (userAnswer == answer) {
+                alert("Поздравляю, Вы угадали! ");
+                break;
+            } else if (userAnswer > answer) {
+                alert("Вы ввели слишком большое число. ");
+            } else if (userAnswer < answer) {
+                alert("Вы ввели слишком маленькое число. ");
+            }
+
+            userAnswer = +prompt("Попробуйте еще раз. Введите число от 0 до 100.\n У Вас осталось " + (maxTryCount - tryCount) + " попыток.");
+        }
+
+        if (tryCount == maxTryCount)
+            alert("Вы проиграли!");
+
+        alert("Правильный ответ: " + answer + "."); 	
+    </script>
+
+</head>
+
+</html>
