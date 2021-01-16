@@ -1,6 +1,6 @@
 /* ______________________Task 1______________________ */
 
-console.log;
+console.log();
 let num = 0;
 while (num <= 100) {
     let check = true;
@@ -56,11 +56,11 @@ console.log('Стоимость корзины: ' + basketCost + ' руб.');
 
 console.log;
 function countBasketPrice(basket) {
-    let BasketPrice = 0;
+    let basketPrice = 0;
     for (let prod of basket) {
-        BasketPrice += prod.price;
+        basketPrice += prod.price;
     }
-    return BasketPrice;
+    return basketPrice;
 }
 
 console.log('Стоимость корзины: ' + countBasketPrice(basket) + ' руб.');
