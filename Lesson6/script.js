@@ -1,10 +1,10 @@
 let storageMock = [
-    { id: 1, name: "Молоко Простоквашино ультрапастеризованное 1,5%", price: 86.60, weight: 950, amount: 1, buy: "Купить" },
-    { id: 2, name: "Творог Простоквашино мягкий 5%", price: 43.90, weight: 130, amount: 1, buy: "Купить" },
+    { id: 1, name: "Молоко Простоквашино ультрапастеризованное 1,5%", price: 86.00, weight: 950, amount: 1, buy: "Купить" },
+    { id: 2, name: "Творог Простоквашино мягкий 5%", price: 43.00, weight: 130, amount: 1, buy: "Купить" },
     { id: 3, name: "Сыр Брест-Литовск классический 45%", price: 185.00, weight: 200, amount: 1, buy: "Купить" },
-    { id: 4, name: "Сметана Простоквашино из топленых сливок 15%", price: 69.90, weight: 260, amount: 1, buy: "Купить" },
-    { id: 5, name: "Ряженка Домик в деревне 3,2%", price: 97.90, weight: 950, amount: 1, buy: "Купить" },
-    { id: 6, name: "Кефир Экомилк 3,2%", price: 97.20, weight: 950, amount: 1, buy: "Купить" },];
+    { id: 4, name: "Сметана Простоквашино из топленых сливок 15%", price: 69.00, weight: 260, amount: 1, buy: "Купить" },
+    { id: 5, name: "Ряженка Домик в деревне 3,2%", price: 97.00, weight: 950, amount: 1, buy: "Купить" },
+    { id: 6, name: "Кефир Экомилк 3,2%", price: 97.00, weight: 950, amount: 1, buy: "Купить" },];
 
 let Cart = []
 document.addEventListener("DOMContentLoaded", function () {
